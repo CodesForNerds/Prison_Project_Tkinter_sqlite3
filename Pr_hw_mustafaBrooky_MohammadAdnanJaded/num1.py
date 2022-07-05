@@ -45,7 +45,9 @@ def main():
 
         txtKilll=StringVar()
 
-        
+        def aboutUs():
+            messagebox.showinfo("Created by","Mustafa brooky & Adnan jaded")
+  
 
 
         #label frames قسم جزء منشان الازرار و الانبوت
@@ -165,7 +167,8 @@ def main():
         edit.add_command(label="Copy")  
         edit.add_command(label="Paste")  
         edit.add_command(label="Delete")  
-        edit.add_command(label="Select All")  
+        edit.add_command(label="Select All")
+        edit.add_command(label="About us",command=aboutUs)  
         
         menubar.add_cascade(label="Edit", menu=edit)  
         
