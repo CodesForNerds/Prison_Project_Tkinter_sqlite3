@@ -4,7 +4,7 @@ from db import DataBase
 from tkinter import messagebox
 from tkinter import Toplevel, Button, Tk, Menu  
 
-
+print('Mustafa')
 
 def main():    
 
